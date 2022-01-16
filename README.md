@@ -65,6 +65,9 @@ npm run dev
 
 ### Configuration
 
+##IMPORTANT
+Use alternate file for Private key. In my case it's .secret  (declared @ hardhat.config.js)
+
 To deploy to Polygon test or main networks, update the configurations located in __hardhat.config.js__ to use a private key and, optionally, deploy to a private RPC like Infura.
 
 ```javascript
